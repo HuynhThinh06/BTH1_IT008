@@ -1,40 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-internal class Program
+namespace Bai03
 {
-    private static void Main(string[] args)
+    internal static class Program
     {
-        Console.Write("Nhap ngay: ");
-        int ngay = int.Parse(Console.ReadLine());
-        Console.Write("Nhap thang: ");
-        int thang = int.Parse(Console.ReadLine());
-        Console.Write("Nhap nam: ");
-        int nam = int.Parse(Console.ReadLine());
-
-        if (nam < 1 || thang < 1 || thang > 12 || ngay < 1)
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            Console.WriteLine("Ngay thang nam khong hop le");
-            return;
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
-
-        int maxNgay;
-
-        if (thang == 4 || thang == 6 || thang == 9 || thang == 11)
-            maxNgay = 30;
-        else if (thang == 2)
-        {
-            if ((nam % 4 == 0 && nam % 100 != 0) || (nam % 400 == 0))
-                maxNgay = 29;
-            else
-                maxNgay = 28;
-        }
-        else
-            maxNgay = 31;
-
-        if (ngay > maxNgay)
-            Console.WriteLine("Ngay thang nam khong hop le");
-        else
-            Console.WriteLine("Ngay thang nam hop le");
-        Console.ReadLine();
     }
 }

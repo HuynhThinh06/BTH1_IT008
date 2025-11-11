@@ -1,0 +1,10 @@
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\bin\Debug\Bai04.exe.config
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\bin\Debug\Bai04.exe
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\bin\Debug\Bai04.pdb
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.csproj.AssemblyReference.cache
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.Form1.resources
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.Properties.Resources.resources
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.csproj.GenerateResource.cache
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.csproj.CoreCompileInputs.cache
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.exe
+D:\BTH3_Huỳnh Gia Thịnh_24521680\Bai04\obj\Debug\Bai04.pdb
